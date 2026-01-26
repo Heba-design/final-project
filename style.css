@@ -4,17 +4,12 @@
   box-sizing:border-box;
   font-family:sans-serif;
 }
-
-/* ===== Variables ===== */
 :root{
   --main-color:#0d6efd;
   --text-dark:#222;
   --text-black:#000;
   --bg-white:#fff;
-  --hover-bg:#f5f7ff;
 }
-
-/* ===== Classes ===== */
 
 /*  list style */
 .dropdown-links,
@@ -82,7 +77,7 @@
   margin:0 18px;
 }
 
-/* ===== Large Dropdown ===== */
+/* ===== Dropdown ===== */
 .dropdown-panel-lg{
   top:55px;
   left:0;
@@ -122,7 +117,7 @@
   background:#fff;
 }
 
-/* ===== Simple Dropdown ===== */
+/* =====  Dropdown ===== */
 .simple-dropdown{
   top:50px;
   left:0;
@@ -377,7 +372,7 @@
   max-width:420px;
 }
 
-/* floating call icons */
+/*  call icons */
 .hero-call{
   position:absolute;
   bottom:30px;
@@ -491,7 +486,7 @@
   object-fit:cover;
 }
 
-/* rating text */
+/* text */
 .avatar-ttile{
   margin:0;
   font-weight:600;
@@ -575,7 +570,7 @@
   max-width:430px;
 }
 
-/* ===== Floating Call Icons ===== */
+/* =====  Call Icons ===== */
 
 .call-info{
   position:absolute;
@@ -604,14 +599,14 @@
   transition:0.3s;
 }
 
-/* Hover effects like in video */
+/* Hover */
 .call-item .item:hover{
   transform:scale(1.1);
   background:#0d6efd;
   color:#fff;
 }
 
-/* Middle red button */
+/* red button */
 .call-item .item-2{
   background:#ff0000;
   color:#fff;
@@ -758,7 +753,7 @@
   color:#222;
 }
 
-/* ===== Slider Layout بدون مكتبات ===== */
+/* ===== Slider ===== */
 
 .spciality-slider{
   display:flex;
@@ -863,7 +858,7 @@
   transform:rotate(-360deg);
 }
 
-/* ===== Arrow Buttons (شكل فقط) ===== */
+/* ===== Arrow Button ===== */
 
 .slide-btn{
   display:flex;
@@ -893,16 +888,3 @@
   color:#fff;
 }
 
-/* ===== Responsive ===== */
-
-@media (max-width:991px){
-  .section-title{
-    font-size:28px;
-  }
-}
-
-@media (max-width:576px){
-  .slide-item{
-    min-width:85%;
-  }
-}
