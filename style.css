@@ -1647,7 +1647,7 @@ body {
   max-width: 240px;
 }
 
-/* ================= STEPS / BOOK ITEMS ================= */
+/* =================BOOK ITEMS ================= */
 
 .bookus-sec {
   margin-top: 90px;
@@ -1984,7 +1984,7 @@ body {
   color:#475569;
   font-size:15px;
 }
-/* ===== COMPANY / PARTNERS SECTION ===== */
+/* ===== PARTNERS SECTION ===== */
 
 .company-section{
   background:#000103;
@@ -2108,7 +2108,6 @@ body {
   color:#1e2430;
 }
 
-/* remove bootstrap blue glow */
 .faq-section-one .accordion-button:focus{
   box-shadow:none;
   border:none;
@@ -2595,6 +2594,182 @@ app-section{
     width:90%;
     opacity:.25;
   }
+}
+/*==================================dashboard style==================================*/
+.profile-header-bg {
+  height: 150px;
+}
+
+.profile-img-container {
+  margin-top: -75px;
+}
+
+.profile-img {
+  object-fit: cover;
+}
+
+.icon-box-lg {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-box-md {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-box-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.profile-status {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  background-color: #00d284;
+  z-index: 10;
+}
+
+.icon-widget {
+  color: #2f80ed;
+}
+
+.upcoming-appointment-card {
+  background: #2f80ed;
+  position: relative;
+  overflow: hidden;
+  color: white !important;
+}
+
+.upcoming-appointment-card .bg-circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.upcoming-appointment-card .bg-circle-1 {
+  top: -100px;
+  right: -50px;
+}
+
+.upcoming-appointment-card .bg-circle-2 {
+  bottom: -80px;
+  left: -30px;
+}
+
+.btn-start-appointment {
+  background: white;
+  color: #2f80ed !important;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-start-appointment:hover {
+  background: #f8faff;
+}
+
+.recent-patient-item {
+  background: #f8faff;
+  border-radius: 12px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.recent-patient-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.invoice-list-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.invoice-item {
+  transition: all 0.2s ease;
+}
+
+.invoice-item:hover {
+  background-color: #f8faff;
+}
+
+.view-invoice-btn {
+  width: 32px;
+  height: 32px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dark);
+  transition: all 0.2s ease;
+}
+
+.view-invoice-btn:hover {
+  background: #2f80ed;
+  color: white;
+}
+
+/* Notification Icon Boxes */
+.notification-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bg-purple-light {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+.bg-blue-light {
+  background-color: #e0ecff;
+  color: #2f80ed;
+}
+
+.bg-red-light {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+.bg-yellow-light {
+  background-color: #fef9c3;
+  color: #eab308;
+}
+
+/* Clinic & Availability Styles */
+.clinic-card {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.availability-block {
+  background-color: white;
+  border: 1px solid #DFE1F5;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.text-blue-primary {
+  color: var(--primary) !important;
+}
+
+.hover-primary:hover {
+  color: var(--primary) !important;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 90px;
+  z-index: 1010;
 }
 /* ============ Footer Section ============ */
 
