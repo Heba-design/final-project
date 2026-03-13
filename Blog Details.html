@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dashboard</title>
+  <!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Iconsax -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/iconsax@1.0.0/dist/css/iconsax.css">
+<!-- WOW -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <!-- Google Font -->
+ <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<!-- main.CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ===== MAIN NAVBAR ===== -->
+<nav class="main-header">
+  <div class="container-fluid d-flex justify-content-between align-items-center px-5 py-3">
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="image /logo.svg" alt="logo">
+    </div>
+
+    <!-- Menu -->
+    <ul class="main-menu list-unstyled d-flex m-0 mx-auto">
+
+      <!-- Home Mega Menu -->
+    <li class="menu-item">
+  <a href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+
+  <div class="mega-box">
+    <div class="row g-3">
+
+      <div class="col-3">
+        <div class="mega-item">
+          <img src="images/home.webp" class="img-fluid">
+          <span>General Home 1</span>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="mega-item">
+          <img src="images/home-01.webp" class="img-fluid">
+          <span>General Home 2</span>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="mega-item">
+          <img src="images/home-03.webp" class="img-fluid">
+          <span>Dental</span>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="mega-item">
+          <img src="images/home-04.webp" class="img-fluid">
+          <span>Pediatrics</span>
+        </div>
+      </div>
+            <div class="col-3">
+            <div class="mega-item">
+              <img src="images/home-05.webp" class="img-fluid">
+              <span>ENT</span>
+            </div>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-06.webp">
+              <span>Veterinary</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-07.webp">
+              <span>Cardiology</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-08.webp">
+              <span>Eye Care</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-09.webp">
+              <span>Fertility</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-10.webp">
+              <span>Cosmetic Surgery</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-11.webp">
+              <span>Laboratory</span>
+            </div>
+            <div class="mega-item">
+              <img src="images/home-12.webp">
+              <span>Pharmacy</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Doctors -->
+      <li class="menu-item">
+        <a href="#">Doctors <i class="fa-solid fa-chevron-down "></i></a>
+      <div class=" sub-menu doctors-menu">
+  <ul>
+    <li><a href="#">Doctor Dashboard</a></li>
+    <li><a href="#">Appointments</a></li>
+    <li><a href="#">Available Timing</a></li>
+    <li><a href="#">Patients List</a></li>
+    <li><a href="#">Chat</a></li>
+    <li><a href="#">Invoices</a></li>
+    <li><a href="#">Profile Settings</a></li>
+  </ul>
+  <div class="doctors-img ">
+    <img src="images/menu-img-1.webp" alt="">
+  </div>
+</div>
+
+      <!-- Patients -->
+     <li class="nav-item has-dropdown">
+            <a href="#">Patients <i class="fa-solid fa-chevron-down"></i></a>
+
+            <div class="dropdown-panel-lg">
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <ul class="dropdown-links">
+                    <li><a href="#">Patient Dashboard</a></li>
+                    <li><a href="#">Doctors Grid</a></li>
+                    <li><a href="#">Doctors List</a></li>
+                    <li><a href="#">Doctors Availability</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Booking 1</a></li>
+                    <li><a href="#">Booking 2</a></li>
+                    <li><a href="#">Booking Popup</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4">
+                  <ul class="dropdown-links">
+                    <li><a href="#">Search Doctor 1</a></li>
+                    <li><a href="#">Search Doctor 2</a></li>
+                    <li><a href="#">Doctor Profile 1</a></li>
+                    <li><a href="#">Doctor Profile 2</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Favourites</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Profile Settings</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="dropdown-image">
+                    <img src="images/menu-img-2.webp">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+
+      <!-- Pharmacy -->
+  <li class="menu-item">
+        <a href="#">Pharmacy <i class="fa-solid fa-chevron-down "></i></a>
+      <div class="sub-menu doctors-menu">
+  <ul>
+    <li><a href="#">Pharmacy Details</a></li>
+    <li><a href="#">Pharmacy Search</a></li>
+    <li><a href="#">Product</a></li>
+    <li><a href="#">Product Description</a></li>
+    <li><a href="#">Cart</a></li>
+    <li><a href="#">Product Checkout</a></li>
+    <li><a href="#">Payment Success</a></li>
+    <li><a href="#">Pharmacy Register</a></li>
+  </ul>
+  <div class="doctors-img ">
+    <img src="/images/menu-img-3.webp" alt="">
+  </div>
+</div>
+      <!-- Pages -->
+     <li class="nav-item has-dropdown">
+            <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+
+            <div class="dropdown-panel-lg">
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <ul class="dropdown-links">
+                    <li><a href="#">Patient Dashboard</a></li>
+                    <li><a href="#">Doctors Grid</a></li>
+                    <li><a href="#">Doctors List</a></li>
+                    <li><a href="#">Doctors Availability</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Booking 1</a></li>
+                    <li><a href="#">Booking 2</a></li>
+                    <li><a href="#">Booking Popup</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4">
+                  <ul class="dropdown-links">
+                    <li><a href="#">Search Doctor 1</a></li>
+                    <li><a href="#">Search Doctor 2</a></li>
+                    <li><a href="#">Doctor Profile 1</a></li>
+                    <li><a href="#">Doctor Profile 2</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Favourites</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Profile Settings</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="dropdown-image">
+                    <img src="images/menu-img-2.webp">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+      <!--Blog-->
+   <li class="menu-item">
+        <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+        <ul class="blog-menu">
+          <li><a href="#">Blog List</a></li>
+          <li><a href="#">Blog Grid</a></li>
+          <li><a href="#">Blog Details</a></li>
+        </ul>
+      </li>
+      <!-- Admin -->
+      <li class="menu-item">
+        <a href="#">Admin<i class="fa-solid fa-chevron-down"></i></a>
+        <ul class="blog-menu">
+          <li><a href="#">Admin</a></li>
+          <li><a href="#">Pharmacy Admin</a></li>
+        </ul>
+      </li>
+    <!-- Right Dots Icon -->
+    <div class="menu-circle ms-5">
+      <a href="#" class="icon-circle">
+      <i class="fa-solid fa-grip"></i>
+      </a>
+    </div>
+  </div>
+</nav> 
+	<!-- Breadcrumb -->
+			<div class="breadcrumb-bar">
+				<div class="container">
+					<div class="row align-items-center inner-banner">
+						<div class="col-md-12 col-12 text-center">
+							<nav aria-label="breadcrumb" class="page-breadcrumb">
+								<ol class="breadcrumb justify-content-center">
+                 <li class="breadcrumb-item">
+                 <a href="index.html">
+                 <i class="fa-solid fa-house-chimney"></i>
+                 </a>
+                </li>
+               <li class="mx-2">
+                <i class="fa-solid fa-angle-right"></i>
+               </li>
+               <li class="breadcrumb-item">Blogs</li>
+               <li class="mx-2">
+                <i class="fa-solid fa-angle-right"></i>
+               </li>
+               <li class="breadcrumb-item active">Blog Details</li>
+              </ol>
+								<h2 class="breadcrumb-title">Blog Details</h2>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="breadcrumb-bg">
+					<img src="image /breadcrumb-bg-01.png" alt="img" class="breadcrumb-bg-01">
+					<img src="image /breadcrumb-bg-02.png" alt="img" class="breadcrumb-bg-02">
+					<img src="image /breadcrumb-icon.webp" alt="img" class="breadcrumb-bg-03">
+					<img src="image /breadcrumb-icon.webp" alt="img" class="breadcrumb-bg-04">
+				</div>
+			</div>
+			<!-- /Breadcrumb -->
+			      <section class="container">
+        <div class="row">
+          <!-- Main Content Column -->
+          <div class="col-lg-8">
+            <article class="blog-details">
+              <div class="blog-header mb-4 text-center">
+                <h1 class="blog-title fs-3">
+                  10 Tips for Maintaining a Healthy Lifestyle Year-Round
+                </h1>
+              </div>
+              <div class="border rounded-3 p-3">
+                <div class="blog-image mb-4 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-list-01.jpg"
+                    alt="Healthy Lifestyle"
+                    class="img-fluid rounded-3 w-100"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-start align-items-center pb-3 pt-0"
+                >
+                  <div class="blog-meta d-flex align-items-center mt-3 w-75">
+                    <span
+                      class="blog-category bg-dark text-white px-3 me-2 rounded-3"
+                      >Health Tips</span
+                    >
+                    <span class="blog-date me-3 ps-5"
+                      ><i class="bi bi-calendar me-1"></i> 4 Dec 2023</span
+                    >
+                    <span class="blog-author"
+                      ><img
+                        src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-thumb-02.jpg"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                        class="rounded-circle me-1"
+                      /><span class="hover-m"> Dr. Darren Elder</span></span
+                    >
+                  </div>
+                  <div class="blog-stats ms-4 d-flex justify-content-end w-25">
+                    <span
+                      class="d-flex align-items-center me-3 p-1 border border-dark rounded-5 pe-3 text-center"
+                      ><i class="bi bi-chat me-1"></i> 25</span
+                    >
+                    <span
+                      class="d-flex align-items-center p-1 border border-primary rounded-5 text-primary text-center"
+                      ><i class="bi bi-eye me-1 text-primary"></i> 90</span
+                    >
+                  </div>
+                </div>
+                <div class="blog-content mb-4">
+                  <p>
+                    Maintaining a healthy lifestyle year-round is achievable
+                    with consistent habits that support your physical and mental
+                    well-being. One of the key pillars is staying hydrated, as
+                    water is essential for digestion, nutrient absorption, and
+                    overall bodily functions. Aim to drink at least eight
+                    glasses of water daily, adjusting for factors like weather
+                    and physical activity. A balanced diet is equally important,
+                    as it fuels your body with the nutrients it needs for
+                    energy, growth, and repair. Incorporate a variety of fruits,
+                    vegetables, lean proteins, and whole grains to ensure you're
+                    getting a range of vitamins and minerals.
+                  </p>
+
+                  <p>
+                    Regular physical activity is another cornerstone of a
+                    healthy lifestyle. Engaging in at least 150 minutes of
+                    moderate exercise per week, such as walking or cycling, can
+                    boost your cardiovascular health, strengthen muscles, and
+                    improve mood. Equally important is prioritizing sleep.
+                    Getting 7-9 hours of quality sleep each night helps regulate
+                    your mood, enhances mental clarity, and supports physical
+                    health. With these tips in mind, you'll be on your way to
+                    maintaining a healthy lifestyle all year long.
+                  </p>
+
+                  <blockquote
+                    class="blockquote border-start border-primary ps-3 py-2 ms-4 mt-4"
+                  >
+                    <p>
+                      An extra important note to remember is that consistency is
+                      key. Small, sustainable changes in your daily habits will
+                      have a more lasting impact than short-term, extreme
+                      efforts. Prioritize gradual improvements in your routine
+                      and be patient with yourself - lasting health is a
+                      marathon, not a sprint.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+              <!-- About -->
+              <div
+                class="about-author d-flex align-items-center border rounded-3 p-4 mt-5"
+              >
+                <div class="author-img me-4 flex-shrink-0">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-thumb-02.jpg"
+                    alt="Dr. Darren Elder"
+                    class="rounded-circle"
+                    style="width: 100px; height: 100px; object-fit: cover"
+                  />
+                </div>
+                <div class="author-content">
+                  <h5 class="mb-2">About Author</h5>
+                  <p class="text-muted mb-0">
+                    As a certified nutritionist and wellness coach, I'm
+                    passionate about helping others achieve a balanced lifestyle
+                    and lasting health. My journey into health started with my
+                    own desire to feel better physically and mentally, and along
+                    the way, I've learned the importance of consistency and
+                    small, sustainable changes.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tags Section -->
+              <div class="blog-tags">
+                <h5>Tags</h5>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Health Tips</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Awareness</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Health</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Wellness</span
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Sidebar Column -->
+          <div class="col-lg-4">
+            <!-- Search Box -->
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                />
+                <button class="btn btn-primary" type="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <h5 class="widget-title">Categories</h5>
+              <ul class="list-group list-group-flush">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Care
+                  <span class="badge text-dark rounded-pill">(2)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Nutritions
+                  <span class="badge text-dark rounded-pill">(4)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Tips
+                  <span class="badge text-dark rounded-pill">(5)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Medical Research
+                  <span class="badge text-dark rounded-pill">(4)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Treatment
+                  <span class="badge text-dark rounded-pill">(6)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Latest News -->
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <h5 class="widget-title fs-3">Latest News</h5>
+              <div class="latest-news-list pt-3 overflow-hidden">
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-11.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">06 Nov 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Managing Chronic Conditions: Expert Advice for Better
+                      Living
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-12.jpg"
+                    alt="News"
+                    class="rounded-2 me-3 hover-img"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">15 Nov 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Understanding Common Symptoms: When to See a Doctor
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-13.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">08 Dec 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Nutrition and Wellness: A Guide to Balanced Eating
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-14.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">17 Dec 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Top Preventive Health Measures Everyone Should Take
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tags Sidebar -->
+            <div class="sidebar-widget border p-3 rounded-3">
+              <h5 class="widget-title">Tags</h5>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Health Tips</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Awareness</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Health</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Wellness</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Treatments</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Checkup</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Prevention</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+			  						<!-- Footer Section -->
+			<footer class="footer inner-footer">
+				<div class="footer-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-8">
+								<div class="row">
+									<div class="col-lg-3 col-md-3 col-sm-6">
+										<div class="footer-widget footer-menu">
+											<h6 class="footer-title">Company</h6>
+											<ul>
+												<li><a href="about-us.html">About</a></li>
+												<li><a href="search.html">Features</a></li>
+												<li><a href="#">Works</a></li>
+												<li><a href="#">Careers</a></li>
+												<li><a href="contact-us.html">Locations</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6">
+										<div class="footer-widget footer-menu">
+											<h6 class="footer-title">Treatments</h6>
+											<ul>
+												<li><a href="search.html">Dental</a></li>
+												<li><a href="search.html">Cardiac</a></li>
+												<li><a href="search.html">Spinal Cord</a></li>
+												<li><a href="search.html">Hair Growth</a></li>
+												<li><a href="search.html">Anemia & Disorder</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6">
+										<div class="footer-widget footer-menu">
+											<h6 class="footer-title">Specialities</h6>
+											<ul>
+												<li><a href="search.html">Transplant</a></li>
+												<li><a href="search.html">Cardiologist</a></li>
+												<li><a href="search.html">Oncology</a></li>
+												<li><a href="search.html">Pediatrics</a></li>
+												<li><a href="search.html">Gynacology</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-6">
+										<div class="footer-widget footer-menu">
+											<h6 class="footer-title">Utilites</h6>
+											<ul>
+												<li><a href="pricing.html">Pricing</a></li>
+												<li><a href="contact-us.html">Contact</a></li>
+												<li><a href="contact-us.html">Request A Quote</a></li>
+												<li><a href="#">Premium Membership</a></li>
+												<li><a href="#">Integrations</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-7">
+								<div class="footer-widget">
+									<h6 class="footer-title">Newsletter</h6>
+									<p class="mb-2 text-dark">Subscribe & Stay Updated from the Doccure</p>
+									<div class="subscribe-input">
+										<form action="#">
+											<input type="email" class="form-control" placeholder="Enter Email Address">
+											<button type="submit" class="btn btn-md btn-primary-gradient d-inline-flex align-items-center"><i class="isax isax-send-25 me-1"></i>Send</button>
+										</form>
+									</div>
+									<div class="social-icon">
+										<h6 class="mb-3 footer-title">Connect With Us</h6>
+										<ul>
+											<li>
+												<a href="#"><i class="fa-brands fa-facebook"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa-brands fa-instagram"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="copyright-text mb-0">
+								<p class="mb-0">Copyright © 2025 Doccure. All Rights Reserved</p>
+							</div>
+							<!-- Copyright Menu -->
+							<div class="copyright-menu">
+								<ul class="policy-menu mb-0">
+									<li><a href="#">Legal Notice</a></li>
+									<li><a href="privacy-policy.html">Privacy Policy</a></li>
+									<li><a href="#">Refund Policy</a></li>
+								</ul>
+							</div>
+							<!-- /Copyright Menu -->
+							<ul class="payment-method">
+								<li><a href="#"><img src="image /card-01.svg" alt="Img"></a></li>
+								<li><a href="#"><img src="image /card-02.svg" alt="Img"></a></li>
+								<li><a href="#"><img src="image /card-03.svg" alt="Img"></a></li>
+								<li><a href="#"><img src="image /card-04.svg" alt="Img"></a></li>
+								<li><a href="#"><img src="image /card-05.svg" alt="Img"></a></li>
+								<li><a href="#"><img src="image /card-06.svg" alt="Img"></a></li>
+							</ul>
+						</div>
+						<!-- /Copyright -->					
+					</div>
+				</div>
+			</footer>
+			<!-- /Footer Section -->
+		   
+		</div>
+		<!-- /Main Wrapper -->
+
+		<!-- start offcanvas -->
+		<div class="offcanvas offcanvas-offset offcanvas-end support_popup" tabindex="-1"  id="support_item">
+			<div class="offcanvas-header">
+				<a href="index.html"><img src="assets/img/logo.svg" alt="logo" class="img-fluid logo"></a>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="isax isax-close-circle"></i></button>
+			</div>
+			
+			<div class="offcanvas-body">
+
+				<!-- Item 1 -->
+				<div class="about-popup-item">
+					<h3 class="title">About Doccure</h3>
+					<p>Modern healthcare platform designed to simplify the way patients connect with doctors, clinics & medical services.</p>
+					<div class="about-img d-flex align-items-center gap-2 justify-content-between">
+						<a href="assets/img/banner/about-img-1.jpg" data-fancybox="gallery"><img src="assets/img/banner/about-img-1.jpg" alt="about-img-1" class="img-fluid"></a>
+						<a href="assets/img/banner/about-img-2.jpg" data-fancybox="gallery"><img src="assets/img/banner/about-img-2.jpg" alt="about-img-1" class="img-fluid"></a>
+						<a href="assets/img/banner/about-img-3.jpg" data-fancybox="gallery"><img src="assets/img/banner/about-img-3.jpg" alt="about-img-1" class="img-fluid"></a>
+					</div>
+				</div>
+				<!-- Item 2 -->
+				<div class="about-popup-item">
+					<h3 class="title">Our Locations</h3>
+					<div class="loction-item mb-3">
+						<h4 class="title">California</h4>
+						<p class="location">1250 Sunset, Los Angeles, CA</p>
+					</div>
+					<div class="loction-item">
+						<h4 class="title">Los Angeles</h4>
+						<p class="location">669 Boulevard, Los Angeles</p>
+					</div>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="about-popup-item">
+					<h3 class="title">Contact Information</h3>
+					<div class="support-item mb-3">
+						<div class="avatar avatar-lg bg-primary rounded-circle">
+							<i class="isax isax-messages-3"></i>
+						</div>
+						<div>
+							<p class="title">General Inquiries</p>
+							<h5 class="link"><a href="#"><span class="__cf_email__" data-cfemail="1871767e77587d60797568747d367b7775">[email&#160;protected]</span></a></h5>
+						</div>
+					</div>
+					<div class="support-item">
+						<div class="avatar avatar-lg bg-primary rounded-circle">
+							<i class="isax isax-call-calling"></i>
+						</div>
+						<div>
+							<p class="title">Emergency Cases</p>
+							<h5 class="link"><a href="#">+1 24565 89856</a></h5>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="about-popup-item border-0">
+					<h3 class="title">Follow Us</h3>
+					<ul class="d-flex align-items-center gap-2 social-iyem">
+						<li>
+							<a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<img src="imges/ offcanvas-bg.png" alt="element" class="element-01">
+		</div>
+
+  <!-- JS -->
+ <script src="main.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script>
+  new WOW().init();
+  $('.doctors-slider').owlCarousel({
+    loop: true,
+    margin: 25,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: false,
+    responsive:{
+      0:{ items:1 },
+      600:{ items:2 },
+      1000:{ items:4 }
+    }
+  });
+</script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.testimonials-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    infinite: false,
+    speed: 600,
+    autoplay: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: { slidesToShow: 2 }
+      },
+      {
+        breakpoint: 576,
+        settings: { slidesToShow: 1 }
+      }
+    ]
+  });
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.counter').counterUp({
+    delay: 20,
+    time: 1500
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('.company-slider').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1800,
+    speed: 900,
+    arrows: false,
+    dots: false,
+    infinite: true,
+    draggable: true,
+    swipe: true,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: { slidesToShow: 4 }
+      },
+      {
+        breakpoint: 576,
+        settings: { slidesToShow: 2 }
+      }
+    ]
+  });
+});
+</script>
+ <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Common Chart Options
+            const commonOptions = {
+                chart: {
+                    type: 'bar',
+                    height: 250,
+                    toolbar: { show: false },
+                    fontFamily: '"Hanken Grotesk", sans-serif'
+                },
+                plotOptions: {
+                    bar: {
+                        borderRadius: 4,
+                        columnWidth: '45%',
+                        distributed: true
+                    }
+                },
+                dataLabels: { enabled: false },
+                legend: { show: false },
+                grid: {
+                    borderColor: '#f1f5f9',
+                    strokeDashArray: 4,
+                    yaxis: { lines: { show: true } }
+                },
+                xaxis: {
+                    categories: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+                    axisBorder: { show: false },
+                    axisTicks: { show: false }
+                },
+                yaxis: {
+                    labels: {
+                        style: { colors: '#64748b' }
+                    }
+                }
+            };
+
+            // Revenue Chart
+            const revenueOptions = {
+                ...commonOptions,
+                series: [{
+                    name: 'Revenue',
+                    data: [50, 40, 15, 45, 35, 48, 65]
+                }],
+                colors: ['#316dff', '#316dff', '#316dff', '#ffb800', '#316dff', '#316dff', '#316dff']
+            };
+
+            // Appointments Chart
+            const appointmentsOptions = {
+                ...commonOptions,
+                series: [{
+                    name: 'Appointments',
+                    data: [40, 20, 30, 60, 90, 40, 110]
+                }],
+                colors: ['#0f172a', '#0f172a', '#0f172a', '#0f172a', '#0f172a', '#316dff', '#0f172a']
+            };
+
+            const revenueChart = new ApexCharts(document.querySelector("#revenue-chart"), revenueOptions);
+            const appointmentsChart = new ApexCharts(document.querySelector("#appointments-chart"), appointmentsOptions);
+
+            revenueChart.render();
+            appointmentsChart.render();
+
+            // Tab Switching Logic
+            const revenueTab = document.getElementById('revenue-tab');
+            const appointmentsTab = document.getElementById('appointments-tab');
+            const revenueContainer = document.getElementById('revenue-chart');
+            const appointmentsContainer = document.getElementById('appointments-chart');
+
+            revenueTab.addEventListener('click', function () {
+                revenueContainer.style.display = 'block';
+                appointmentsContainer.style.display = 'none';
+                revenueTab.classList.remove('text-muted');
+                appointmentsTab.classList.add('text-muted');
+            });
+
+            appointmentsTab.addEventListener('click', function () {
+                revenueContainer.style.display = 'none';
+                appointmentsContainer.style.display = 'block';
+                appointmentsTab.classList.remove('text-muted');
+                revenueTab.classList.add('text-muted');
+                // Re-render chart to fix resize issues inside hidden div
+                appointmentsChart.render();
+            });
+        });
+    </script>
+</body>
+</html>
